@@ -13,7 +13,7 @@
     font-size: 14px;
 }
 .pinLogo img{
-    height: 40px;
+    height: 25px;
     margin-right: 10px;
 }
 
@@ -26,7 +26,7 @@
 }
 
 .nav_container .nav_right .nav_self{
-    border: 2px solid gray;
+    border: 2px solid lightgray;
     border-radius: 50px;
     min-width: 300px;
     text-align: left;
@@ -50,6 +50,9 @@
     line-height: 1;
 }
 .nav_name{
-    font-size: 20px;
+    font-size: 18px;
 }
 
+.nav_container i {
+    color: gray;
+}

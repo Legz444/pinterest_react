@@ -9,7 +9,7 @@ function Navigation() {
         <div className="nav_container">
             <div className="pinLogo">
                 <img src={pinterestLogo}/> 
-                <p>Pinterest Apprentice</p>
+                <p><strong>Pinterest Apprentice</strong></p>
             </div>
             <div className="nav_right">
                 <div className="nav_self">
