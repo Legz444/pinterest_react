@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+}
+.bio{
+  margin:auto;
+  text-align: center;
+}
+
+.bio img{
+  border-radius: 200px;
+}
+.bio h1{
+  font-size: 3.5em;
+}
+.bio button{
+  color: white;
+  background-color: red;
+  padding: 15px;
+  border-radius: 28px;
+  font-size: 1.5em;
+  border: none;
+}
+.alt_btns{
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+}
+.alternate{
+  text-align: center;
+  text-decoration: none;
+  padding: 5px;
+  color: black;
+}
+.alternate:hover{
+  background-color: lightgray;
+  border-radius: 5px;
+}
+.alternate:active{
+  text-decoration: underline;
+  background-color: lightgray;
+  border-radius: 5px;
+}
+
