@@ -11,24 +11,25 @@ function App() {
   return (
     <div className="App">
       <Navigation/>
-     <div className='bio'>
-        <img src={headshot} width="200px;"/>
-        <h1>Allegra</h1>
-        <strong><p>2 Years Experience &#9900; Ready to Learn</p></strong>
-        <p>#WomanInTech #BootCampGrad #SingleMama<br/>#LGBTQAlly #ColoradoLife</p>
-        <button className='bio_btn'>Hire Me</button>
-     </div>
-     <div className='alt_btns'>
-        <a className='alternate' onClick={()=>setCurrentComponent("experience")}>
-          <h3>Experience</h3>
-        </a>
-        <a className='alternate' onClick={()=>setCurrentComponent("about")}>
-          <h3>About Me</h3>
-        </a>
-     </div>
-
-        {currentComponent === "experience" && <Experience/>}
-        {currentComponent === "about" && <AboutMe/>}
+      <main>
+          <div className='bio'>
+              <img src={headshot} width="200px;"/>
+              <h1>Allegra</h1>
+              <strong><p>2 Years Experience &#9900; Ready to Learn</p></strong>
+              <p>#WomanInTech #BootCampGrad #SingleMama<br/>#LGBTQAlly #ColoradoLife</p>
+              <button className='bio_btn'>Hire Me</button>
+          </div>
+          <div className='alt_btns'>
+              <a className='alternate' onClick={()=>setCurrentComponent("experience")}>
+                <h3>Experience</h3>
+              </a>
+              <a className='alternate' onClick={()=>setCurrentComponent("about")}>
+                <h3>About Me</h3>
+              </a>
+          </div>
+              {currentComponent === "experience" && <Experience/>}
+              {currentComponent === "about" && <AboutMe/>}
+        </main>
     </div>
       
   );

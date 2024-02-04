@@ -8,9 +8,9 @@ function Experience() {
         <div className='grid'>
             {experienceData.map((item) => (
                 <div id={item.id} className='grid_item'>
-                    <img src="#"/>
-                    <div>
-                        <h3>{item.title}</h3>
+                    <img src={item.imgURL}/>
+                    <div className="grid_text">
+                        <h3><strong>{item.title}</strong></h3>
                         <h4>{item.subtitle}</h4>
                     </div>
                 </div>

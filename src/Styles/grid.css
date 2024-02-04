@@ -2,9 +2,31 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     grid-gap: 10px;
+    width: 80%;
+    margin: auto;
+    align-items: flex-start;
 }
 
 
+.grid_item{
+    width: 250px;
+    margin: auto;
+}
 .grid_item img{
     width: 250px;
+    border-radius: 25px;
 }
+
+.grid_text{
+    width: 250px;
+    text-align: left;
+    margin: auto;
+    padding-bottom: 10px;
+}
+.grid_text h3{
+    font-size: 20px;
+}
+.grid_text h4{
+    font-size: 14px;
+}
+

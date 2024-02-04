@@ -19,7 +19,7 @@ function Navigation() {
                     </div>
                 </div>
                 <div>
-                    <i className="fa-brands fa-linkedin fa-fw fa-2x"/>
+                    <a href="https://www.linkedin.com/in/allegra-hilburger/"><i className="fa-brands fa-linkedin fa-fw fa-2x"/></a>
                     <i className="fa-brands fa-github fa-fw fa-2x"/>
                     <i className="fa-solid fa-angle-down fa-fw fa-2x"/>
                 </div>
