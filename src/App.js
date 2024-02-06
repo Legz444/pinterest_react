@@ -17,7 +17,7 @@ function App() {
               <h1>Allegra</h1>
               <strong><p>2 Years Experience &#9900; Ready to Learn</p></strong>
               <p>#WomanInTech #BootCampGrad #SingleMama<br/>#LGBTQAlly #ColoradoLife</p>
-              <button className='bio_btn'>Hire Me</button>
+              <button className='bio_btn'><a href="mailto: allegrase@protonmail.com" target='_blank'>Hire Me</a></button>
           </div>
           <div className='alt_btns'>
               <a className='alternate' onClick={()=>setCurrentComponent("experience")}>

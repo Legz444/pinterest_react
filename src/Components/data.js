@@ -17,7 +17,7 @@ export const experienceData = [
         id: 'Geotech',
         title: "Geotech Environmental Equipment Inc.",
         subtitle: 'Web Developer & Digital Marketing',
-        // imgURL: Images,
+        imgURL: "https://res.cloudinary.com/legz444/image/upload/v1707086931/Portfolio/Geotech_Logo_427x125_doznbu.png",
         modal: [
             {
                 description: 'My first job in the industry! From February 2022 - Present I have managed Geotechs main website, as well as 2 acquired companies sites. Additionally I have taken over the monthly newsletter and social media, and tradeshow marketing materials, often creating graphic designs.',
